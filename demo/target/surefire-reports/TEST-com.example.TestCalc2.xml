@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Samuli\AppData\Local\Temp\surefire4307124624831806937\surefirebooter-20250907220338739_3.jar C:\Users\Samuli\AppData\Local\Temp\surefire4307124624831806937 2025-09-07T22-03-38_616-jvmRun1 surefire-20250907220338739_1tmp surefire_0-20250907220338739_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Samuli\AppData\Local\Temp\surefire3498171385200133932\surefirebooter-20250908055441564_3.jar C:\Users\Samuli\AppData\Local\Temp\surefire3498171385200133932 2025-09-08T05-54-41_423-jvmRun1 surefire-20250908055441564_1tmp surefire_0-20250908055441564_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="c:\Users\Samuli\Desktop\Ohjelmisto testaus\Viikko 1\demo\target\test-classes;c:\Users\Samuli\Desktop\Ohjelmisto testaus\Viikko 1\demo\target\classes;C:\Users\Samuli\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;C:\Users\Samuli\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Samuli\.m2\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;C:\Users\Samuli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Samuli\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Samuli\AppData\Local\Temp\surefire4307124624831806937\surefirebooter-20250907220338739_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Samuli\AppData\Local\Temp\surefire3498171385200133932\surefirebooter-20250908055441564_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -59,63 +59,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="testObese" classname="com.example.TestCalc2" time="0.0">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 49.9
-Calculated BMI: 49.9
-Category: Obese
-]]></system-out>
-  </testcase>
-  <testcase name="testNegativeOrZeroWeight" classname="com.example.TestCalc2" time="0.001">
-    <system-out><![CDATA[BMI Calculator ready!
-Invalid input values!
-]]></system-out>
-  </testcase>
-  <testcase name="testOverweightBoundary" classname="com.example.TestCalc2" time="0.001">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 25.0
-Calculated BMI: 25.0
-Category: Overweight
-]]></system-out>
-  </testcase>
-  <testcase name="testUnderweight" classname="com.example.TestCalc2" time="0.001">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 18.4
-Calculated BMI: 18.4
-Category: Underweight
-]]></system-out>
-  </testcase>
-  <testcase name="testNegativeOrZeroheight" classname="com.example.TestCalc2" time="0.0">
-    <system-out><![CDATA[BMI Calculator ready!
-Invalid input values!
-]]></system-out>
-  </testcase>
-  <testcase name="testNormalWeight" classname="com.example.TestCalc2" time="0.0">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 24.9
-Calculated BMI: 24.9
-Category: Normal weight
-]]></system-out>
-  </testcase>
-  <testcase name="testObeseBoundary" classname="com.example.TestCalc2" time="0.0">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 30.0
-Calculated BMI: 30.0
-Category: Obese
-]]></system-out>
-  </testcase>
-  <testcase name="testOverweight" classname="com.example.TestCalc2" time="0.001">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 27.7
-Calculated BMI: 27.7
-Category: Overweight
-]]></system-out>
-  </testcase>
-  <testcase name="testNormalWeightBoundary" classname="com.example.TestCalc2" time="0.001">
-    <system-out><![CDATA[BMI Calculator ready!
-Calculated BMI: 18.5
-Calculated BMI: 18.5
-Category: Normal weight
-]]></system-out>
-  </testcase>
+  <testcase name="testObese" classname="com.example.TestCalc2" time="0.001"/>
+  <testcase name="testNegativeOrZeroWeight" classname="com.example.TestCalc2" time="0.0"/>
+  <testcase name="testOverweightBoundary" classname="com.example.TestCalc2" time="0.0"/>
+  <testcase name="testUnderweight" classname="com.example.TestCalc2" time="0.0"/>
+  <testcase name="testNegativeOrZeroheight" classname="com.example.TestCalc2" time="0.0"/>
+  <testcase name="testNormalWeight" classname="com.example.TestCalc2" time="0.001"/>
+  <testcase name="testObeseBoundary" classname="com.example.TestCalc2" time="0.001"/>
+  <testcase name="testOverweight" classname="com.example.TestCalc2" time="0.001"/>
+  <testcase name="testNormalWeightBoundary" classname="com.example.TestCalc2" time="0.001"/>
 </testsuite>
